@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced HTML5 Page with Forms</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Enhanced HTML5 Page</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">tasks</a></li>
+            <li><a href="#">projects</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+    <p>This page demonstrates the use of lists, tables, media, and a complete HTML5 form.</p>
+  </header>
+
+  <main>
+    <section id="content-section">
+      <h2>HTML5 Content Showcase</h2>
+      <p>This section will include examples of lists, tables, and embedded media.</p>
+
+      <h3>Unordered List: Web Development Skills</h3>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+    </ul>
+    
+    <h3>Ordered List: Steps to Build a Web Page</h3>
+  <ol>
+    <li>Plan your layout</li>
+    <li>Write HTML structure</li>
+    <li>Style with CSS</li>
+    <li>Add interactivity with JavaScript</li>
+  </ol>
+
+  <h3>Sample Table: Web Development Courses</h3>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Course</th>
+      <th>Level</th>
+      <th>Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HTML5 Basics</td>
+      <td>Beginner</td>
+      <td>2 Weeks</td>
+    </tr>
+    <tr>
+      <td>CSS3 Styling</td>
+      <td>Intermediate</td>
+      <td>3 Weeks</td>
+    </tr>
+    <tr>
+      <td>JavaScript Essentials</td>
+      <td>Advanced</td>
+      <td>4 Weeks</td>
+    </tr>
+  </tbody>
+</table>
+<h3>Embedded Media</h3>
+
+<!-- Image -->
+<figure>
+  <img src="rent in addis agent cover.jpg" alt="Sample Image">
+  <figcaption>A sample placeholder image</figcaption>
+</figure>
+
+<!-- Audio -->
+<h4>Audio Example</h4>
+<audio controls>
+  <source src="sample-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<!-- Video -->
+<h4>Video Example</h4>
+<video width="320" height="240" controls>
+  <source src="sample-video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</section>
+<section id="form-section">
+  <h2>Contact & Feedback Form</h2>
+  <p>Please fill out the form below. All fields marked with * are required.</p>
+
+  <form action="#" method="post" autocomplete="on">
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="fullname">Full Name *</label><br>
+      <input type="text" id="fullname" name="fullname" placeholder="Your name" required><br><br>
+
+      <label for="email">Email Address *</label><br>
+      <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+      <label for="age">Age</label><br>
+      <input type="number" id="age" name="age" min="10" max="100"><br><br>
+
+      <label for="username">Username *</label><br>
+      <input type="text" id="username" name="username" minlength="4" maxlength="12" required><br><br>
+
+      <label for="phone">Phone Number (10 digits)</label><br>
+      <input type="tel" id="phone" name="phone" pattern="\d{10}" placeholder="09xxxxxxxx"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Feedback</legend>
+
+      <label for="satisfaction">How satisfied are you?</label><br>
+      <select id="satisfaction" name="satisfaction" required>
+        <option value="">--Select--</option>
+        <option value="very-satisfied">Very Satisfied</option>
+        <option value="satisfied">Satisfied</option>
+        <option value="neutral">Neutral</option>
+        <option value="unsatisfied">Unsatisfied</option>
+      </select><br><br>
+
+      <label for="message">Your Comments *</label><br>
+      <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+
+      <input type="checkbox" id="agree" name="agree" required>
+      <label for="agree">I agree to the terms *</label><br><br>
+    </fieldset>
+
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Reset">
+  </form>
+</section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Eddy HTML5 Assignment</p>
+  </footer>
+</body>
+</html>
